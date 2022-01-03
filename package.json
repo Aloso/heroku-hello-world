@@ -1,0 +1,13 @@
+{
+    "name": "heroku-hello-world",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/index.js",
+    "scripts": {},
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+      "express": "^4.17.2",
+      "uwuifier": "^4.0.4"
+    }
+}
