@@ -1,7 +1,7 @@
 const express = require('express')
 const Uwuifier = require('uwuifier')
 const app = express()
-const port = 3000
+const port = process.env.PORT || 80;
 
 const uwuifier = new Uwuifier();
 
