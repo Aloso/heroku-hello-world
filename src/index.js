@@ -5,7 +5,7 @@ const port = 3000
 
 const uwuifier = new Uwuifier();
 
-app.use(express.static('../public'));
+app.use('/', express.static(__dirname + '/public'));
 
 app.get('/uwu', (req, res) => {
     res.send(uwuifier.uwuifySentence(req.query.text))
